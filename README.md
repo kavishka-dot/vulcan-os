@@ -62,10 +62,10 @@ openocd -f interface/stlink.cfg -f target/stm32h7x.cfg \
 | Phase | Status | Description |
 |-------|--------|-------------|
 | 1 | ✅ Done | Kernel, scheduler, memory, mutex |
-| 2 | Planned | HAL — UART, DMA, SPI, ADC |
-| 3 | Planned | ML ops — INT8 matmul, conv2d, activations |
-| 4 | Planned | Model loader — Vulcan binary format |
-| 5 | Planned | Training engine — SGD/Adam, INT8 gradients |
+| 2 | Planned | HAL - UART, DMA, SPI, ADC |
+| 3 | Planned | ML ops - INT8 matmul, conv2d, activations |
+| 4 | Planned | Model loader - Vulcan binary format |
+| 5 | Planned | Training engine - SGD/Adam, INT8 gradients |
 
 ## License
 
