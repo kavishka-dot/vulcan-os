@@ -44,9 +44,18 @@ add_link_options(
 # ── sources ─────────────────────────────────────────────────────────
 add_executable(vulcan.elf
     main.c
+    # kernel
     kernel/vulcan_sched.c
     kernel/vulcan_mutex.c
     kernel/vulcan_mem.c
+    # HAL
+    hal/startup_stm32h743.s
+    hal/vulcan_clock.c
+    hal/vulcan_gpio.c
+    hal/vulcan_dma.c
+    hal/vulcan_uart.c
+    hal/vulcan_adc.c
+    hal/vulcan_spi.c
 )
 
 target_include_directories(vulcan.elf PRIVATE
