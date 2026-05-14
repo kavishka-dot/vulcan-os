@@ -1,5 +1,8 @@
 # Vulcan OS
 
+<img width="1013" height="1135" alt="image" src="https://github.com/user-attachments/assets/e05ba5d9-0cef-409b-8237-c2b37a780931" />
+
+
 A minimal real-time operating system for STM32H7 (Cortex-M7), built entirely in-house for running and training ML models on the edge.
 
 ## Architecture
@@ -30,7 +33,7 @@ vulcan/
 - **MCU**: STM32H743 — Cortex-M7 @ 480 MHz, 1 MB DTCM, 2 MB Flash
 - **Toolchain**: `arm-none-eabi-gcc`
 
-## Phase 1 — Kernel + Memory (implemented)
+## Phase 1 - Kernel + Memory (implemented)
 
 - Preemptive priority scheduler via PendSV + SysTick
 - Cooperative yield (`vk_task_yield`) and timed sleep (`vk_task_sleep`)
