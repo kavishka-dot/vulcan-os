@@ -1,5 +1,12 @@
 # Vulcan OS
 
+
+
+<p align="center">
+  <img width="525" height="573" alt="image" src="https://github.com/user-attachments/assets/7120aa71-748a-4957-b268-8dd389d567cc" />
+</p>
+
+
 A minimal real-time operating system for STM32H7 (Cortex-M7), written entirely in-house for running and training ML models on the edge. No FreeRTOS. No STM32 HAL. No TFLite. Every byte is ours.
 
 ## Architecture
