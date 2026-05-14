@@ -1,7 +1,8 @@
 # Vulcan OS
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e05ba5d9-0cef-409b-8237-c2b37a780931" width="513" height="535">
+  <img width="513" height="499" alt="image" src="https://github.com/user-attachments/assets/bfaf6805-a512-4d67-affb-44ba8892f1cc" />
+
 </p>
 
 
