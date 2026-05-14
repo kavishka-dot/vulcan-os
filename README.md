@@ -32,7 +32,7 @@ vulcan/
 
 ## Target
 
-- **MCU**: STM32H743 — Cortex-M7 @ 480 MHz, 1 MB DTCM, 2 MB Flash
+- **MCU**: STM32H743 - Cortex-M7 @ 480 MHz, 1 MB DTCM, 2 MB Flash
 - **Toolchain**: `arm-none-eabi-gcc`
 
 ## Phase 1 - Kernel + Memory (implemented)
